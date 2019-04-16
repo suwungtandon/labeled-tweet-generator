@@ -13,10 +13,10 @@ class TwitterClient(object):
     '''
     def __init__(self, query, retweets_only=False, with_sentiment=False):
         # keys and tokens from the Twitter Dev Console
-        consumer_key = os.environ['CONSUMER_KEY']
-        consumer_secret = os.environ['CONSUMER_SECRET']
-        access_token = os.environ['ACCESS_TOKEN']
-        access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
+        consumer_key = os.environ['XaAhL2jvQl1NNPAqkpaNBeNK2 ']
+        consumer_secret = os.environ['71LWaEtbCevXJDo4l2vm2ihG37LqosvxK3lqXAPKJQubJ9pXZr']
+        access_token = os.environ['1117927643783892992-3gY6kYLBuiqqKOOONCrqESXeMsye8p']
+        access_token_secret = os.environ['GoF4wM1VvRSg4v3UvGdqPtYtNjiozwASDIra4QAuXGJb8']
         # Attempt authentication
         try:
             self.auth = OAuthHandler(consumer_key, consumer_secret)
