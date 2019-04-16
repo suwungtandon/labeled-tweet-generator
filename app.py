@@ -5,7 +5,7 @@ from twitter import TwitterClient
 
 app = Flask(__name__)
 # Setup the client <query string, retweets_only bool, with_sentiment bool>
-api = TwitterClient('@Sirajology')
+api = TwitterClient('@suwungtandon')
 
 
 def strtobool(v):
